@@ -1,22 +1,10 @@
-/* Paleta de cores 1 */
-.color1 {color: #230916;}
-.color2 {color: #6b0933;}
-.color3 {color: #1a9fb6;}
-.color4 {color: #20dbd8;}
-.color5 {color: #9eebe9;}
+
+:root {
+    --primary-color: #f5edf5;;
+    --primary-dark: #98a2fa;
+    --secondary-color: #5261a2;
+    --third-color: #1e2b47;
+    --third-color-dark: #140f07;
+}
 
 
-/* Paleta de cores 2 */
-.color1 {color: #140f07;}
-.color2 {color: #1e2b47;}
-.color3 {color: #5261a2;}
-.color4 {color: #98a2fa;}
-.color5 {color: #f5edf5;}
-
-
-/* Paleta de cores 3 */
-.color1 {color: #13182d;}
-.color2 {color: #0e2e5d;}
-.color3 {color: #414993;}
-.color4 {color: #8b65cf;}
-.color5 {color: #f083fc;}
