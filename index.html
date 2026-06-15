@@ -1,24 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Gabriel de Almeida Fongaro | Portfólio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
-    <title>Página inicial</title>
 </head>
 <body>
-    <div id="header">
-        <img src="logo.jpg" alt="Description of the image">
-        <div>
-            <img src="" alt="" id="linguage">
-            <img src="" alt="" id="options">
-        </div>
+
+    <div class="container">
+
+        <header>
+            <h1>Victor Gabriel de Almeida Fongaro</h1>
+            <p class="subtitle">Estudante de Ciência da Computação @ UTFPR</p>
+            
+            <div class="links-integracao">
+                <a href="www.linkedin.com/in/victorfongaro" target="_blank" class="btn-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="http://lattes.cnpq.br/1551708937747031" target="_blank" class="btn-link"><i class="fas fa-graduation-cap"></i> Currículo Lattes</a>
+                <a href="https://github.com/victorfongaro" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </header>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>
+                Estudante de Ciência da Computação na Universidade Tecnológica Federal do Paraná (UTFPR), com formação técnica em Informática pelo IFPR. Tenho forte inclinação e experiência em pesquisa aplicada, atuando em modelagem estatística, análise probabilística e no desenvolvimento de soluções computacionais baseadas em dados.
+            </p>
+            <p>
+                Meus interesses são focados em <strong>Inteligência Artificial, Cibersegurança, Hardware e Educação</strong>, sempre buscando criar aplicações práticas que unam a pesquisa acadêmica com as demandas do mundo real.
+            </p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos & Pesquisas</h2>
+            <div class="grid-projetos">
+                
+                <div class="card animate-card" id="hardxp">
+                    <span class="card-date">2025</span>
+                    <h3>HardXP</h3>
+                    <p>Plataforma gamificada interativa desenvolvida para o ensino de hardware, apresentada em seminários de Ciência e Tecnologia (SCIENTIF) e premiada como melhor projeto web disciplinar.</p>
+                    <div class="tags-container">
+                        <span class="tag">Hardware</span>
+                        <span class="tag">Educação</span>
+                        <span class="tag">Web</span>
+                    </div>
+                </div>
+
+                <div class="card animate-card">
+                    <span class="card-date">2023 - 2025</span>
+                    <h3>IFuteba</h3>
+                    <p>Projeto de pesquisa voltado à análise estatística e modelos probabilísticos para a previsão de resultados de futebol, com publicações e análises do Campeonato Brasileiro.</p>
+                    <div class="tags-container">
+                        <span class="tag">Estatística</span>
+                        <span class="tag">Pesquisa</span>
+                        <span class="tag">Dados</span>
+                    </div>
+                </div>
+
+                <div class="card animate-card">
+                    <span class="card-date">2023 - 2025</span>
+                    <h3>Laboratório de Robótica</h3>
+                    <p>Atuação prática unindo informática, eletrônica e mecânica para criar soluções automatizadas e inteligentes voltadas a problemas reais da comunidade.</p>
+                    <div class="tags-container">
+                        <span class="tag">Robótica</span>
+                        <span class="tag">Automação</span>
+                        <span class="tag">Extensão</span>
+                    </div>
+                </div>
+
+                <div class="card animate-card">
+                    <span class="card-date">2026</span>
+                    <h3>TickScaner</h3>
+                    <p>Solução desenvolvida e apresentada durante a participação no Hackathon Show Rural Coopavel, aplicando tecnologia ao setor do agronegócio.</p>
+                    <div class="tags-container">
+                        <span class="tag">Hackathon</span>
+                        <span class="tag">Inovação</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="conquistas">
+            <h2>Conquistas Acadêmicas</h2>
+            <ul class="lista-conquistas">
+                <li><i class="fas fa-medal ouro"></i> <strong>Medalha de Ouro</strong> na Olimpíada Brasileira de Geopolítica (OBGP)</li>
+                <li><i class="fas fa-trophy ouro"></i> <strong>Campeão Regional e Macrorregional de Xadrez</strong> (Jogos Escolares Paranaenses - JEPs)</li>
+                <li><i class="fas fa-award"></i> Ex-Vice-Presidente do Grêmio Estudantil (IFPR), atuando na organização e liderança estudantil</li>
+                <li><i class="fas fa-code"></i> Participante ativo de competições como OBI (Informática), OBA (Astronomia) e OBAFOG (Foguetes)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Victor Fongaro.</p>
+        </footer>
+
     </div>
-    <h1>Victor Gabriel de Almeida Fongaro</h1>
-    <p>olá, eu sou Victor! Sou programador full-stack e  estou estudando para ser um pesquisador aplicado, tenho grande interesse em inteligência artificial, cibercegurança e visão computacional.</p>
-    <div id="buttons-container">
-        <Button id="button-1">Meus projetos & contatos</Button><Button id="button-2">sobre mim</Button>
-    </div>
-    <script src="./script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>

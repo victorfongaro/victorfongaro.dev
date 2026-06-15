@@ -1,10 +1,23 @@
-const button1 = document.getElementById('button-1');
-const button2 = document.getElementById('button-2');
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Portfólio carregado com sucesso!");
 
-button1.addEventListener('click', function() {
-    window.open('projetos.html', '_blank');
-});
+    const cards = document.querySelectorAll('.animate-card');
+    const cardHardXP = document.getElementById("hardxp");
 
-button2.addEventListener('click', function() {
-    window.open('resumo.html', '_blank');
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.boxShadow = "0 4px 20px rgba(157, 78, 223, 0.15)";
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.boxShadow = "none";
+        });
+    });
+
+    if (cardHardXP) {
+        cardHardXP.addEventListener("click", () => {
+            // Abre o link do projeto em uma nova aba
+            window.open("projetos/projeto1.html", "_blank");
+        });
+    }
 });
