@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cards = document.querySelectorAll('.animate-card');
     const cardHardXP = document.getElementById("hardxp");
+    const cardIFuteba = document.getElementById("ifuteba");
 
     cards.forEach(card => {
         card.addEventListener('mouseenter', () => {
@@ -16,8 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (cardHardXP) {
         cardHardXP.addEventListener("click", () => {
-            // Abre o link do projeto em uma nova aba
             window.open("projetos/projeto1.html", "_blank");
+        });
+    }
+
+    if (cardIFuteba) {
+        cardIFuteba.addEventListener("click", () => {
+            window.open("projetos/projeto2.html", "_blank");
         });
     }
 });
