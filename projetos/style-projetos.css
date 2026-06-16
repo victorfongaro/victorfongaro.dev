@@ -1,0 +1,43 @@
+/* projetos/style-projetos.css */
+
+/* Estilos específicos para as páginas de detalhes dos projetos */
+.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.btn-voltar:hover {
+    transform: translateX(-5px);
+}
+
+.btn-voltar i {
+    margin-right: 8px;
+}
+
+.meta-info {
+    margin: 20px 0 40px 0;
+    padding: 15px;
+    background-color: var(--card-bg);
+    border-radius: 6px;
+    border-left: 4px solid var(--accent-color);
+    font-size: 0.9rem;
+}
+
+.meta-info p {
+    margin: 5px 0;
+    color: #8b949e;
+}
+
+.meta-info strong {
+    color: #f0f6fc;
+}
+
+.conteudo-projeto h3 {
+    color: #f0f6fc;
+    margin-top: 30px;
+}
