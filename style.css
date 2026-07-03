@@ -21,8 +21,30 @@ body {
     padding: 60px 20px;
 }
 
+#imagem-perfil {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.perfil-img {
+    width: 140px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
 header {
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -61,6 +83,10 @@ h1 {
     border-color: var(--accent-color);
     color: #ffffff;
     transform: translateY(-2px);
+}
+
+.linkedin-link i {
+    color: #0072b1;
 }
 
 .btn-link i {
@@ -159,6 +185,10 @@ p strong, p color {
     display: flex;
     align-items: center;
     color: #8b949e;
+}
+
+.lista-conquistas li strong {
+    margin-left: 0.25rem;
 }
 
 .lista-conquistas li i {
