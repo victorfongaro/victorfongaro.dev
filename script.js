@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cards = document.querySelectorAll('.animate-card');
     const cardHardXP = document.getElementById("hardxp");
     const cardIFuteba = document.getElementById("ifuteba");
+    const cardRobotica = document.getElementById("robotica");
 
     cards.forEach(card => {
         card.addEventListener('mouseenter', () => {
@@ -17,13 +18,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (cardHardXP) {
         cardHardXP.addEventListener("click", () => {
-            window.open("projetos/projeto1.html", "_blank");
+            window.location.href = "projetos/projeto1.html";
         });
     }
 
     if (cardIFuteba) {
         cardIFuteba.addEventListener("click", () => {
-            window.open("projetos/projeto2.html", "_blank");
+            window.location.href = "projetos/projeto2.html";
         });
     }
+    if (cardRobotica) {
+        cardRobotica.addEventListener("click", () => {
+            window.location.href = "projetos/projeto3.html";
+        });
+        }
 });
