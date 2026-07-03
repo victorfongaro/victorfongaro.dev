@@ -36,7 +36,7 @@ body {
 
 .perfil-img {
     width: 140px;
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 50%;
     border: 2px solid var(--border-color);
     box-shadow: 0 16px 30px rgba(0, 0, 0, 0.25);
@@ -189,6 +189,7 @@ p strong, p color {
 
 .lista-conquistas li strong {
     margin-left: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .lista-conquistas li i {
