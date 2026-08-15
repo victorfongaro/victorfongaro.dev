@@ -7,6 +7,7 @@
     <title>Victor Gabriel de Almeida Fongaro | Portfólio</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -42,7 +43,7 @@
 
         <section id="me-block">
             <div class="select-me-sql">
-                <pre><code>CREATE TABLE desenvolvedores (
+                <pre><code class="language-sql">CREATE TABLE desenvolvedores (
     id INT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL DEFAULT 'Victor Gabriel de Almeida Fongaro',
     curso VARCHAR(50) NOT NULL DEFAULT 'Ciência da Computação',
@@ -51,7 +52,7 @@
         </div>
 
         <div id="me-in-c">
-    <pre><code>#include &lt;stdio.h&gt;
+    <pre><code class="language-c">#include &lt;stdio.h&gt;
 
 void formacao() {
     printf("Formação Acadêmica:\n");
@@ -65,7 +66,7 @@ int main() {
 }</code></pre>
 </div>
         <div id="me-in-py">
-            <pre><code>class VictorFongaro:
+            <pre><code class="language-python">class VictorFongaro:
     def __init__(self):
         self.interests = ["AI", "Cybersecurity", "Hardware", "Education"]
         self.skills = ["Python", "Java", "C", "C++", "SQL", "JavaScript"]
@@ -154,5 +155,10 @@ int main() {
     </div>
 
     <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
 </body>
 </html>
