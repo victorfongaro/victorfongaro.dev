@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Victor Gabriel de Almeida Fongaro, estudante de Ciência da Computação na UTFPR. Projetos em IA, Hardware e Automação.">
     <title>Victor Gabriel de Almeida Fongaro | Portfólio</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -24,6 +25,7 @@
                 <a href="http://www.linkedin.com/in/victorfongaro" target="_blank" class="btn-link linkedin-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="http://lattes.cnpq.br/1551708937747031" target="_blank" class="btn-link"><i class="fas fa-graduation-cap"></i> Currículo Lattes</a>
                 <a href="https://github.com/victorfongaro" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                <a href="mailto:victor.fongaro@utfpr.edu.br" class="btn-link"><i class="fas fa-envelope"></i> Email</a>
             </div>
         </header>
         </div>
@@ -33,19 +35,54 @@
             <p>
                 Estudante de Ciência da Computação na Universidade Tecnológica Federal do Paraná (UTFPR), com formação técnica em Informática pelo IFPR. Tenho forte inclinação e experiência em pesquisa aplicada, atuando em modelagem estatística, análise probabilística e no desenvolvimento de soluções computacionais baseadas em dados.
             </p>
-            <p>
+            <!-- <p>
                 Meus interesses são focados em <strong>Inteligência Artificial, Cibersegurança, Hardware e Educação</strong>, sempre buscando criar aplicações práticas que unam a pesquisa acadêmica com as demandas do mundo real.
-            </p>
+            </p> -->
         </section>
 
+        <section id="me-block">
+            <div class="select-me-sql">
+                <pre><code>CREATE TABLE desenvolvedores (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL DEFAULT 'Victor Gabriel de Almeida Fongaro',
+    curso VARCHAR(50) NOT NULL DEFAULT 'Ciência da Computação',
+    periodo INT NOT NULL DEFAULT 2
+);</code></pre>
+        </div>
+
+        <div id="me-in-c">
+    <pre><code>#include &lt;stdio.h&gt;
+
+void formacao() {
+    printf("Formação Acadêmica:\n");
+    printf("- Técnico em Informática pelo IFPR (2025)\n");
+    printf("- Bacharelado em Ciência da Computação pela UTFPR (atual)\n");
+}
+
+int main() {
+    formacao();
+    return 0;
+}</code></pre>
+</div>
+        <div id="me-in-py">
+            <pre><code>class VictorFongaro:
+    def __init__(self):
+        self.interests = ["AI", "Cybersecurity", "Hardware", "Education"]
+        self.skills = ["Python", "Java", "C", "C++", "SQL", "JavaScript"]
+        self.hobbies = ["Leitura", "Xadrez", "Robótica"]
+
+    def activity(self):
+        print("Atuando em projetos de pesquisa, desenvolvimento de software e soluções inovadoras.")</code></pre>
+        </div>
+        </section>
         <section id="projetos">
             <h2>Projetos & Pesquisas</h2>
             <div class="grid-projetos">
                 
                 <div class="card animate-card" id="hardxp">
                     <span class="card-date">2025</span>
-                    <h3>HardXP</h3>
-                    <p>Plataforma gamificada interativa desenvolvida para o ensino de hardware, apresentada em seminários de Ciência e Tecnologia (SCIENTIF) e premiada como melhor projeto web disciplinar.</p>
+                    <h3>HardXP </h3>
+                    <p>Plataforma gamificada interativa desenvolvida para o ensino de hardware, apresentada em seminários de Ciência e Tecnologia (SCIENTIF) e premiada como melhor projeto web disciplinar e conceituada com pontuação máxima.</p>
                     <div class="tags-container">
                         <span class="tag">Hardware</span>
                         <span class="tag">Educação</span>
